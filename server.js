@@ -6,10 +6,8 @@ const db = knex({
   // Enter your own database information here based on what you created
   client: 'pg',
   connection: {
-    host : 'postgresql-triangular-46974',
-    user : 'muncitk',
-    password : '147258369Aa',
-    database : 'muncitk'
+    host : 'process.env.DATABASE_URL',
+    ssl : true,
   }
 });
 const app = express();
