@@ -6,7 +6,7 @@ const db = knex({
   // Enter your own database information here based on what you created
   client: 'pg',
   connection: {
-    host : '127.0.0.1',
+    host : 'postgresql-triangular-46974',
     user : 'muncitk',
     password : '147258369Aa',
     database : 'muncitk'
